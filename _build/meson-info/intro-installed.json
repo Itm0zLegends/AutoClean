@@ -1,0 +1,13 @@
+{
+  "/home/edouard/Projects/AutoClean/_build/data/fr.crowdev.autoclean.desktop": "/app/share/applications/fr.crowdev.autoclean.desktop",
+  "/home/edouard/Projects/AutoClean/_build/data/fr.crowdev.autoclean.metainfo.xml": "/app/share/metainfo/fr.crowdev.autoclean.metainfo.xml",
+  "/home/edouard/Projects/AutoClean/_build/src/autoclean.gresource": "/app/share/autoclean/autoclean.gresource",
+  "/home/edouard/Projects/AutoClean/data/fr.crowdev.autoclean.gschema.xml": "/app/share/glib-2.0/schemas/fr.crowdev.autoclean.gschema.xml",
+  "/home/edouard/Projects/AutoClean/_build/data/fr.crowdev.autoclean.service": "/app/share/dbus-1/services/fr.crowdev.autoclean.service",
+  "/home/edouard/Projects/AutoClean/data/icons/hicolor/scalable/apps/fr.crowdev.autoclean.svg": "/app/share/icons/hicolor/scalable/apps/fr.crowdev.autoclean.svg",
+  "/home/edouard/Projects/AutoClean/data/icons/hicolor/symbolic/apps/fr.crowdev.autoclean-symbolic.svg": "/app/share/icons/hicolor/symbolic/apps/fr.crowdev.autoclean-symbolic.svg",
+  "/home/edouard/Projects/AutoClean/_build/src/autoclean": "/app/bin/autoclean",
+  "/home/edouard/Projects/AutoClean/src/__init__.py": "/app/share/autoclean/autoclean/__init__.py",
+  "/home/edouard/Projects/AutoClean/src/main.py": "/app/share/autoclean/autoclean/main.py",
+  "/home/edouard/Projects/AutoClean/src/window.py": "/app/share/autoclean/autoclean/window.py"
+}

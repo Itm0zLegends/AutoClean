@@ -1,0 +1,8 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+data/fr.crowdev.autoclean.desktop.in
+data/fr.crowdev.autoclean.metainfo.xml.in
+data/fr.crowdev.autoclean.gschema.xml
+src/main.py
+src/window.py
+src/window.ui

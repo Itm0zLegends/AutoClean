@@ -1,0 +1,147 @@
+Build started at 2025-12-28T12:32:43.858872
+Main binary: /usr/bin/python
+Build Options: -Dprefix=/app
+Python system: Linux
+The Meson build system
+Version: 1.5.2
+Source dir: /home/edouard/Projects/AutoClean
+Build dir: /home/edouard/Projects/AutoClean/_build
+Build type: native build
+Project name: autoclean
+Project version: 0.1.0
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program desktop-file-validate found: YES (/usr/bin/desktop-file-validate)
+Adding test "Validate desktop file"
+Program appstreamcli found: YES (/usr/bin/appstreamcli)
+Adding test "Validate appstream file"
+Program glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Adding test "Validate schema file"
+Configuring fr.crowdev.autoclean.service using configuration
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Determining dependency 'glib-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: /app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion glib-2.0` -> 0
+stdout:
+2.84.4
+-----------
+env[PKG_CONFIG_PATH]: /app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags glib-2.0` -> 0
+stdout:
+-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_PATH]: /app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs glib-2.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: /app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs glib-2.0` -> 0
+stdout:
+-lglib-2.0
+-----------
+Determining dependency 'gio-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: /app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gio-2.0` -> 0
+stdout:
+2.84.4
+-----------
+env[PKG_CONFIG_PATH]: /app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gio-2.0` -> 0
+stdout:
+-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_PATH]: /app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gio-2.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: /app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gio-2.0` -> 0
+stdout:
+-lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Build-time dependency gio-2.0 found: YES 2.84.4
+env[PKG_CONFIG_PATH]: /app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=glib_compile_resources gio-2.0` -> 0
+stdout:
+/usr/bin/glib-compile-resources
+-----------
+Got pkg-config variable glib_compile_resources : /usr/bin/glib-compile-resources
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Program python3 found: YES (/usr/bin/python3)
+Configuring autoclean using configuration
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+env[PKG_CONFIG_PATH]: /app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=glib_compile_schemas gio-2.0` -> 0
+stdout:
+/usr/bin/glib-compile-schemas
+-----------
+Got pkg-config variable glib_compile_schemas : /usr/bin/glib-compile-schemas
+Program /usr/bin/glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Program gtk4-update-icon-cache found: YES (/usr/bin/gtk4-update-icon-cache)
+Program update-desktop-database found: YES (/usr/bin/update-desktop-database)
+Build targets in project: 6
+
+autoclean 0.1.0
+
+  User defined options
+    prefix: /app
+
+Found ninja-1.13.1 at /usr/bin/ninja
+Failed to guess install tag for /app/share/applications/fr.crowdev.autoclean.desktop
+Failed to guess install tag for /app/share/metainfo/fr.crowdev.autoclean.metainfo.xml
+Failed to guess install tag for /app/share/glib-2.0/schemas/fr.crowdev.autoclean.gschema.xml
+Failed to guess install tag for /app/share/dbus-1/services/fr.crowdev.autoclean.service
+Failed to guess install tag for /app/share/icons/hicolor/scalable/apps/fr.crowdev.autoclean.svg
+Failed to guess install tag for /app/share/icons/hicolor/symbolic/apps/fr.crowdev.autoclean-symbolic.svg
+Failed to guess install tag for /app/share/autoclean/autoclean/__init__.py
+Failed to guess install tag for /app/share/autoclean/autoclean/main.py
+Failed to guess install tag for /app/share/autoclean/autoclean/window.py
+Failed to guess install tag for install script: /usr/bin/glib-compile-schemas /app/share/glib-2.0/schemas
+Failed to guess install tag for install script: /usr/bin/gtk4-update-icon-cache -q -t -f /app/share/icons/hicolor
+Failed to guess install tag for install script: /usr/bin/update-desktop-database -q /app/share/applications
+Failed to guess install tag for /app/share/applications/fr.crowdev.autoclean.desktop
+Failed to guess install tag for /app/share/metainfo/fr.crowdev.autoclean.metainfo.xml
+Failed to guess install tag for /app/share/glib-2.0/schemas/fr.crowdev.autoclean.gschema.xml
+Failed to guess install tag for /app/share/dbus-1/services/fr.crowdev.autoclean.service
+Failed to guess install tag for /app/share/icons/hicolor/scalable/apps/fr.crowdev.autoclean.svg
+Failed to guess install tag for /app/share/icons/hicolor/symbolic/apps/fr.crowdev.autoclean-symbolic.svg
+Failed to guess install tag for /app/share/autoclean/autoclean/__init__.py
+Failed to guess install tag for /app/share/autoclean/autoclean/main.py
+Failed to guess install tag for /app/share/autoclean/autoclean/window.py
+Failed to guess install tag for install script: /usr/bin/glib-compile-schemas /app/share/glib-2.0/schemas
+Failed to guess install tag for install script: /usr/bin/gtk4-update-icon-cache -q -t -f /app/share/icons/hicolor
+Failed to guess install tag for install script: /usr/bin/update-desktop-database -q /app/share/applications

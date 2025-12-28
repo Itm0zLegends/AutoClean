@@ -1,0 +1,166 @@
+[
+  {
+    "name": "fr.crowdev.autoclean.desktop",
+    "id": "3a6eb07@@fr.crowdev.autoclean.desktop@cus",
+    "type": "custom",
+    "defined_in": "/home/edouard/Projects/AutoClean/data/meson.build",
+    "filename": [
+      "/home/edouard/Projects/AutoClean/_build/data/fr.crowdev.autoclean.desktop"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/usr/bin/meson",
+          "--internal",
+          "msgfmthelper",
+          "--msgfmt=/usr/bin/msgfmt",
+          "@INPUT@",
+          "@OUTPUT@",
+          "desktop",
+          "../data/../po"
+        ],
+        "parameters": [],
+        "sources": [
+          "/home/edouard/Projects/AutoClean/fr.crowdev.autoclean.desktop.in"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": true,
+    "install_filename": [
+      "/app/share/applications/fr.crowdev.autoclean.desktop"
+    ]
+  },
+  {
+    "name": "fr.crowdev.autoclean.metainfo.xml",
+    "id": "3a6eb07@@fr.crowdev.autoclean.metainfo.xml@cus",
+    "type": "custom",
+    "defined_in": "/home/edouard/Projects/AutoClean/data/meson.build",
+    "filename": [
+      "/home/edouard/Projects/AutoClean/_build/data/fr.crowdev.autoclean.metainfo.xml"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/usr/bin/meson",
+          "--internal",
+          "msgfmthelper",
+          "--msgfmt=/usr/bin/msgfmt",
+          "@INPUT@",
+          "@OUTPUT@",
+          "xml",
+          "../data/../po"
+        ],
+        "parameters": [],
+        "sources": [
+          "/home/edouard/Projects/AutoClean/fr.crowdev.autoclean.metainfo.xml.in"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": true,
+    "install_filename": [
+      "/app/share/metainfo/fr.crowdev.autoclean.metainfo.xml"
+    ]
+  },
+  {
+    "name": "autoclean_gresource",
+    "id": "25a6634@@autoclean_gresource@cus",
+    "type": "custom",
+    "defined_in": "/home/edouard/Projects/AutoClean/src/meson.build",
+    "filename": [
+      "/home/edouard/Projects/AutoClean/_build/src/autoclean.gresource"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/usr/bin/glib-compile-resources",
+          "@INPUT@",
+          "--sourcedir",
+          "../src",
+          "--internal",
+          "--generate",
+          "--target",
+          "@OUTPUT@",
+          "--dependency-file",
+          "@DEPFILE@"
+        ],
+        "parameters": [],
+        "sources": [
+          "/home/edouard/Projects/AutoClean/autoclean.gresource.xml"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": true,
+    "install_filename": [
+      "/app/share/autoclean/autoclean.gresource"
+    ]
+  },
+  {
+    "name": "autoclean-pot",
+    "id": "6199aec@@autoclean-pot@run",
+    "type": "run",
+    "defined_in": "/home/edouard/Projects/AutoClean/po/meson.build",
+    "filename": [
+      "/home/edouard/Projects/AutoClean/_build/po/autoclean-pot"
+    ],
+    "build_by_default": false,
+    "target_sources": [],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "autoclean-gmo",
+    "id": "6199aec@@autoclean-gmo@run",
+    "type": "alias",
+    "defined_in": "/home/edouard/Projects/AutoClean/po/meson.build",
+    "filename": [
+      "/home/edouard/Projects/AutoClean/_build/po/autoclean-gmo"
+    ],
+    "build_by_default": false,
+    "target_sources": [],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "autoclean-update-po",
+    "id": "6199aec@@autoclean-update-po@run",
+    "type": "run",
+    "defined_in": "/home/edouard/Projects/AutoClean/po/meson.build",
+    "filename": [
+      "/home/edouard/Projects/AutoClean/_build/po/autoclean-update-po"
+    ],
+    "build_by_default": false,
+    "target_sources": [],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  }
+]

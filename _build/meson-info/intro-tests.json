@@ -1,0 +1,65 @@
+[
+  {
+    "cmd": [
+      "/usr/bin/desktop-file-validate",
+      "data/fr.crowdev.autoclean.desktop"
+    ],
+    "env": {},
+    "name": "Validate desktop file",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "autoclean"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [
+      "3a6eb07@@fr.crowdev.autoclean.desktop@cus"
+    ],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/usr/bin/appstreamcli",
+      "validate",
+      "--no-net",
+      "--explain",
+      "data/fr.crowdev.autoclean.metainfo.xml"
+    ],
+    "env": {},
+    "name": "Validate appstream file",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "autoclean"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [
+      "3a6eb07@@fr.crowdev.autoclean.metainfo.xml@cus"
+    ],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/usr/bin/glib-compile-schemas",
+      "--strict",
+      "--dry-run",
+      "/home/edouard/Projects/AutoClean/data"
+    ],
+    "env": {},
+    "name": "Validate schema file",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "autoclean"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  }
+]

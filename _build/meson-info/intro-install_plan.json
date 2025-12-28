@@ -1,0 +1,63 @@
+{
+  "targets": {
+    "/home/edouard/Projects/AutoClean/_build/data/fr.crowdev.autoclean.desktop": {
+      "destination": "{datadir}/applications/fr.crowdev.autoclean.desktop",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/edouard/Projects/AutoClean/_build/data/fr.crowdev.autoclean.metainfo.xml": {
+      "destination": "{datadir}/metainfo/fr.crowdev.autoclean.metainfo.xml",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/edouard/Projects/AutoClean/_build/src/autoclean.gresource": {
+      "destination": "{prefix}/share/autoclean/autoclean.gresource",
+      "tag": "runtime",
+      "subproject": null
+    }
+  },
+  "data": {
+    "/home/edouard/Projects/AutoClean/data/fr.crowdev.autoclean.gschema.xml": {
+      "destination": "{datadir}/glib-2.0/schemas/fr.crowdev.autoclean.gschema.xml",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/edouard/Projects/AutoClean/data/icons/hicolor/scalable/apps/fr.crowdev.autoclean.svg": {
+      "destination": "{datadir}/icons/hicolor/scalable/apps/fr.crowdev.autoclean.svg",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/edouard/Projects/AutoClean/data/icons/hicolor/symbolic/apps/fr.crowdev.autoclean-symbolic.svg": {
+      "destination": "{datadir}/icons/hicolor/symbolic/apps/fr.crowdev.autoclean-symbolic.svg",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/edouard/Projects/AutoClean/src/__init__.py": {
+      "destination": "{prefix}/share/autoclean/autoclean/__init__.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/edouard/Projects/AutoClean/src/main.py": {
+      "destination": "{prefix}/share/autoclean/autoclean/main.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/edouard/Projects/AutoClean/src/window.py": {
+      "destination": "{prefix}/share/autoclean/autoclean/window.py",
+      "tag": null,
+      "subproject": null
+    }
+  },
+  "configure": {
+    "/home/edouard/Projects/AutoClean/_build/data/fr.crowdev.autoclean.service": {
+      "destination": "{datadir}/dbus-1/services/fr.crowdev.autoclean.service",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/edouard/Projects/AutoClean/_build/src/autoclean": {
+      "destination": "{bindir}/autoclean",
+      "tag": "runtime",
+      "subproject": null
+    }
+  }
+}

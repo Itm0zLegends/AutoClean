@@ -1,0 +1,9 @@
+[
+  "/home/edouard/Projects/AutoClean/meson.build",
+  "/home/edouard/Projects/AutoClean/data/meson.build",
+  "/home/edouard/Projects/AutoClean/data/fr.crowdev.autoclean.service.in",
+  "/home/edouard/Projects/AutoClean/data/icons/meson.build",
+  "/home/edouard/Projects/AutoClean/src/meson.build",
+  "/home/edouard/Projects/AutoClean/src/autoclean.in",
+  "/home/edouard/Projects/AutoClean/po/meson.build"
+]

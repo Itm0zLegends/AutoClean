@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=AutoClean
+Comment=Analyse et nettoie votre système en toute sécurité
+Exec=python3 %f
+Icon=org.gnome.AutoClean
+Type=Application
+Categories=Utility;GTK;
+Terminal=false
+StartupNotify=true

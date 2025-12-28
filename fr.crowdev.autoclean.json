@@ -1,0 +1,42 @@
+{
+  "app-id": "fr.crowdev.AutoClean",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "48",
+  "sdk": "org.gnome.Sdk",
+  "command": "autoclean",
+  "finish-args": [
+    "--share=network",
+    "--filesystem=home",
+    "--filesystem=xdg-cache",
+    "--socket=wayland",
+    "--socket=fallback-x11",
+    "--device=dri"
+  ],
+  "cleanup": [
+    "/include",
+    "/lib/pkgconfig",
+    "/man",
+    "/share/doc",
+    "/share/gtk-doc",
+    "/share/man",
+    "/share/pkgconfig",
+    "*.la",
+    "*.a"
+  ],
+  "modules": [
+    {
+      "name": "autoclean",
+      "buildsystem": "simple",
+      "build-commands": [
+        "install -D src/main.py /app/bin/autoclean"
+      ],
+	"sources": [
+	    {
+		"type": "git",
+		"url": "file:///home/edouard/Projects/AutoClean",
+		"branch": "main"
+	    }
+	]
+    }
+  ]
+}

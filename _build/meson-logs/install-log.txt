@@ -1,0 +1,28 @@
+# List of files installed by Meson
+# Does not contain files installed by custom scripts.
+/app/share/applications/fr.crowdev.autoclean.desktop
+/app/share/metainfo/fr.crowdev.autoclean.metainfo.xml
+/app/share/autoclean/autoclean.gresource
+/app/share/glib-2.0/schemas/fr.crowdev.autoclean.gschema.xml
+/app/share/dbus-1/services/fr.crowdev.autoclean.service
+/app/share/icons/hicolor/scalable/apps/fr.crowdev.autoclean.svg
+/app/share/icons/hicolor/symbolic/apps/fr.crowdev.autoclean-symbolic.svg
+/app/bin/autoclean
+/app/share/autoclean/autoclean/__init__.py
+/app/share/autoclean/autoclean/main.py
+/app/share/autoclean/autoclean/window.py
+/app/share/autoclean/autoclean
+/app/share/icons/hicolor/symbolic/apps
+/app/share/icons/hicolor/symbolic
+/app/share/icons/hicolor/scalable/apps
+/app/share/icons/hicolor/scalable
+/app/share/icons/hicolor
+/app/share/icons
+/app/share/dbus-1/services
+/app/share/dbus-1
+/app/share/glib-2.0/schemas
+/app/share/glib-2.0
+/app/share/autoclean
+/app/share/metainfo
+/app/share/applications
+/app/share

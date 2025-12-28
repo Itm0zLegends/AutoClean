@@ -1,0 +1,140 @@
+[
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "/usr/bin/meson --internal msgfmthelper --msgfmt=/usr/bin/msgfmt ../data/fr.crowdev.autoclean.desktop.in data/fr.crowdev.autoclean.desktop desktop ../data/../po",
+    "file": "../data/fr.crowdev.autoclean.desktop.in",
+    "output": "data/fr.crowdev.autoclean.desktop"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "/usr/bin/meson --internal msgfmthelper --msgfmt=/usr/bin/msgfmt ../data/fr.crowdev.autoclean.metainfo.xml.in data/fr.crowdev.autoclean.metainfo.xml xml ../data/../po",
+    "file": "../data/fr.crowdev.autoclean.metainfo.xml.in",
+    "output": "data/fr.crowdev.autoclean.metainfo.xml"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "/usr/bin/glib-compile-resources ../src/autoclean.gresource.xml --sourcedir ../src --internal --generate --target src/autoclean.gresource --dependency-file src/autoclean.gresource.d",
+    "file": "../src/autoclean.gresource.xml",
+    "output": "src/autoclean.gresource"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "",
+    "file": "meson-internal__autoclean-pot",
+    "output": "autoclean-pot"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "",
+    "file": "meson-internal__autoclean-update-po",
+    "output": "autoclean-update-po"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "",
+    "file": "meson-internal__test",
+    "output": "test"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "/usr/bin/meson test --no-rebuild --print-errorlogs",
+    "file": "all",
+    "output": "meson-internal__test"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "",
+    "file": "meson-internal__benchmark",
+    "output": "benchmark"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "/usr/bin/meson test --benchmark --logbase benchmarklog --num-processes=1 --no-rebuild",
+    "file": "all",
+    "output": "meson-internal__benchmark"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "",
+    "file": "meson-internal__install",
+    "output": "install"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "/usr/bin/meson install --no-rebuild",
+    "file": "PHONY",
+    "output": "meson-internal__install"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "",
+    "file": "meson-internal__dist",
+    "output": "dist"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "/usr/bin/meson dist",
+    "file": "PHONY",
+    "output": "meson-internal__dist"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "",
+    "file": "meson-internal__uninstall",
+    "output": "uninstall"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "/usr/bin/meson --internal uninstall",
+    "file": "PHONY",
+    "output": "meson-internal__uninstall"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "",
+    "file": "meson-test-prereq",
+    "output": "all"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "",
+    "file": "data/fr.crowdev.autoclean.desktop",
+    "output": "meson-test-prereq"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "",
+    "file": "meson-internal__clean",
+    "output": "clean"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "",
+    "file": "meson-internal__clean-ctlist",
+    "output": "clean-ctlist"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "/usr/bin/meson --internal cleantrees /home/edouard/Projects/AutoClean/_build/meson-private/cleantrees.dat",
+    "file": "PHONY",
+    "output": "meson-internal__clean-ctlist"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "/usr/bin/ninja -t clean",
+    "file": "PHONY",
+    "output": "meson-internal__clean"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "/usr/bin/meson --internal regenerate /home/edouard/Projects/AutoClean .",
+    "file": "../meson.build",
+    "output": "build.ninja"
+  },
+  {
+    "directory": "/home/edouard/Projects/AutoClean/_build",
+    "command": "/usr/bin/meson --internal regenerate /home/edouard/Projects/AutoClean .",
+    "file": "PHONY",
+    "output": "reconfigure"
+  }
+]
