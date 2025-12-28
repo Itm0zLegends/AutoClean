@@ -33,7 +33,7 @@
 	"sources": [
 	    {
 		"type": "git",
-		"url": "file:///home/edouard/Projects/AutoClean",
+		"url": "https://github.com/Itm0zLegends/AutoClean.git",
 		"branch": "main"
 	    }
 	]
