@@ -2,7 +2,7 @@
 Name=AutoClean
 Comment=Analyse et nettoyage sécurisé de votre système
 Exec=autoclean
-Icon=autoclean
+Icon=fr.crowdev.autoclean
 Terminal=false
 Type=Application
 Categories=Utility;
